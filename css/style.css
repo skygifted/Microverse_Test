@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      grid-template-rows: repeat(1,auto);
+       
+}
+
+.main{
+
+    background-color: grey; 
+    grid-column: 1/6;
+    grid-row: 1;
+    margin: 3em 3em;
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+    
+}
